@@ -1,0 +1,5 @@
+name = "http-mock"
+main = "src/index.js"
+compatibility_date = "2022-03-23"
+
+routes = ["http-mock.helloworkers.dev/*"]

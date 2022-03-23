@@ -1,0 +1,11 @@
+name = "kv-redirects"
+main = "src/index.js"
+compatibility_date = "2022-03-23"
+
+routes = ["helloworkers.dev/*"]
+
+# create KV namespace with "wrangler kv:namespace create KV_REDIRECTS"
+# for wrangler dev, also "wrangler kv:namespace create KV_REDIRECTS --preview"
+kv_namespaces = [
+  { binding = "KV_REDIRECTS", id = "1b85c2d01f55486ab8a5d2161f60da12", preview_id = "bbe01baa383b4c5eaf083920eddbdd6d" },
+]

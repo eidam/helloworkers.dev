@@ -1,0 +1,12 @@
+{
+  "name": "kv-redirects",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "0.0.23"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "publish": "wrangler publish"
+  }
+}
