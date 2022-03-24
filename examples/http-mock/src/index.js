@@ -10,6 +10,6 @@ export default {
     
 
     // return OK by default
-    return new Response(`code ${status} delayed by ${delay}ms`);
+    return new Response(`code ${status} delayed by ${delay}ms`, {status});
   },
 };
