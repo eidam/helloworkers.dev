@@ -9,6 +9,9 @@ export default {
         "/workers": "https://workers.cloudflare.com",
         "/cloudflare": "https://cloudflare.com",
         "/examples": "https://github.com/eidam/helloworkers.dev",
+        "/discord": "https://discord.gg/cloudflaredev",
+        "/docs": "https://developers.cloudflare.com/workers",
+        "/twitter": "https://twitter.com/cloudflaredev",
       }
 
       // one-off KV put
